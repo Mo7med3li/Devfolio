@@ -8,6 +8,9 @@ Bootstrap project as Portfolio of designer
 ![image](https://github.com/user-attachments/assets/a5c2de3e-5e08-43cb-8d31-1f7275657929)
 ![image](https://github.com/user-attachments/assets/9b7f0526-64a6-4cb3-a38e-77410d631833)
 video as mobile first
+
 https://github.com/user-attachments/assets/8e5d09d1-640f-4f3b-a978-2186e9892cb6
+
 video as desktop
+
 https://github.com/user-attachments/assets/0c97dc91-68b3-46c1-ab15-d056c85007ca
