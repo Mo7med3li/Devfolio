@@ -1,0 +1,125 @@
+@media screen and (min-width: 576px) {
+  .deepdrop:hover ul.end-0.d-none {
+    display: block !important;
+    position: relative !important;
+  }
+  #navbarSupportedContent ul {
+    background-color: aliceblue;
+    padding: 20px;
+  }
+
+  #navbarSupportedContent ul li a {
+    color: black;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .plus-icon {
+    top: 20%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .deepdrop:hover ul.end-0.d-none {
+    position: absolute !important;
+    display: block !important;
+    right: 100% !important;
+  }
+  #navbarSupportedContent ul {
+    background-color: transparent;
+  }
+  #navbarSupportedContent ul li a {
+    color: white;
+  }
+  .nav-link.active {
+    color: white !important;
+  }
+
+  .nav-link.active::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -20%;
+    transition: width 500ms;
+    animation: active;
+    animation-duration: 1s;
+  }
+
+  .blog-link::before,
+  .about-link::before,
+  .services-link::before,
+  .contact-link::before,
+  .work-link::before,
+  .drop-link::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    bottom: -20%;
+    transition: width 500ms;
+  }
+  .home-link::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -20%;
+    transition: width 500ms;
+  }
+  .nav-item a {
+    font-weight: bold;
+  }
+  @keyframes desinger {
+    0%,
+    25%,
+    50%,
+    100% {
+      width: 0%;
+    }
+    12.5% {
+      width: calc(22px * 9);
+    }
+  }
+  @keyframes developer {
+    0%,
+    25%,
+    50%,
+    100% {
+      width: 0%;
+    }
+    37.5% {
+      width: calc(22px * 10);
+    }
+  }
+  @keyframes freeLancer {
+    0%,
+    50%,
+    75%,
+    100% {
+      width: 0%;
+    }
+    62.5% {
+      width: calc(22px * 11);
+    }
+  }
+  @keyframes Photo {
+    0%,
+    75%,
+    100% {
+      width: 0;
+    }
+    87.5% {
+      width: calc(22px * 13);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .deepdrop:hover ul.end-0.d-none {
+    display: block !important;
+    right: -100% !important;
+  }
+}
